@@ -61,8 +61,9 @@ button {
     text-transform: uppercase;
     word-spacing: 10px;
     padding: 20px 40px;
-    margin: 25px auto;
+    margin: 42px auto;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 button:hover {
@@ -92,11 +93,14 @@ button:hover {
     &__logo {
         font: bold 48px $font1;
         color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 3px;
     }
 
     &__caption {
         font: 400 22px $font1;
         color: #ffffff;
+        letter-spacing: 5.5px;
     }
 }
 
@@ -113,7 +117,7 @@ button:hover {
         text-align: center;
         outline: none;
         border: 2px solid #ffffff;
-        margin: 25px auto;
+        margin: 42px 0 0 0;
         padding: 20px 0;
     }
 
@@ -149,6 +153,7 @@ button:hover {
     left: 47%;
     text-align: center;
     transition-duration: 0.3s;
+    cursor: grab;
 }
 
 .scroll:hover {
@@ -157,7 +162,7 @@ button:hover {
 
 .menu {
     background-color: $color1;
-    padding: 0 20px;
+    padding: 0 20px 0 35px;
 
     &__wrapper {
         display: flex;
@@ -168,6 +173,7 @@ button:hover {
     &__logo {
         font: 700 24px $font1;
         text-transform: uppercase;
+        letter-spacing: 2px;
     }
 
     &__link {
@@ -187,7 +193,7 @@ button:hover {
 .info {
     background-image: url(../img/bg_002.jpg);
     background-size: cover;
-    padding: 0 20px;
+    padding: 0 20px 0 20px;
 
     &__wrapper {
     display: flex;
@@ -251,7 +257,7 @@ button:hover {
         background-color: rgba($color2, $alpha: 0.9);
         width: 50%;
         padding: 50px;
-        margin: 100px 0;
+        margin: 230px 0 100px 0;
     }
 
     &__subtitle {
@@ -278,7 +284,7 @@ button:hover {
     &__title {
         font: 400 36px $font2;
         text-align: center;
-        padding: 120px 0 95px 0;
+        padding: 15px 0 95px 0;
     }
 
     &__wrapper {
@@ -314,6 +320,8 @@ button:hover {
     &__logo {
         font: 700 24px $font1;
         text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
 
     &__logo:hover {
@@ -332,6 +340,7 @@ button:hover {
             font-size: 16px;
             padding: 0 10px;
             transition-duration: 0.3s;
+            cursor: pointer;;
         }
 
         &--icon:hover {
@@ -453,17 +462,35 @@ button:hover {
         padding: 10px 20px;
     }
 
-    
-    .info__button {
-        position: absolute;
-        bottom: 0;
-    }
-
     .article__wrapper {
         width: auto;
     }
 
     .cell__process {
         padding: 15px 0;
+    }
+
+    .info__wrapper {
+        padding: 50px 0;
+    }
+
+    .process__wrapper {
+        padding: 50px 0;
+    }
+
+    .article__wrapper {
+        margin: 50px 0;
+    }
+
+    .testimonials__wrapper {
+        margin-bottom: 50px;
+    }
+
+    .footer__wrapper {
+        padding: 50px 0;
+    }
+
+    .footer__social {
+        padding-bottom: 0;
     }
 }

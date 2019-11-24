@@ -94,10 +94,11 @@ button {
   text-transform: uppercase;
   word-spacing: 10px;
   padding: 20px 40px;
-  margin: 25px auto;
+  margin: 42px auto;
   -webkit-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
-  transition-duration: 0.4s; }
+  transition-duration: 0.4s;
+  cursor: pointer; }
 
 button:hover {
   background-color: #ffffff;
@@ -120,10 +121,13 @@ button:hover {
   padding: 270px 0 290px 0; }
   .header__logo {
     font: bold 48px "Josefin Sans", sans-serif;
-    color: #ffffff; }
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
   .header__caption {
     font: 400 22px "Josefin Sans", sans-serif;
-    color: #ffffff; }
+    color: #ffffff;
+    letter-spacing: 5.5px; }
 
 .search-form {
   -webkit-box-sizing: border-box;
@@ -138,7 +142,7 @@ button:hover {
     text-align: center;
     outline: none;
     border: 2px solid #ffffff;
-    margin: 25px auto;
+    margin: 42px 0 0 0;
     padding: 20px 0; }
   .search-form__text::-webkit-input-placeholder {
     font: 400 14px "Josefin Sans", sans-serif;
@@ -174,14 +178,16 @@ button:hover {
   text-align: center;
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
-  transition-duration: 0.3s; }
+  transition-duration: 0.3s;
+  cursor: -webkit-grab;
+  cursor: grab; }
 
 .scroll:hover {
   color: #ffffff; }
 
 .menu {
   background-color: #5474fd;
-  padding: 0 20px; }
+  padding: 0 20px 0 35px; }
   .menu__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -192,7 +198,8 @@ button:hover {
     justify-content: space-between; }
   .menu__logo {
     font: 700 24px "Josefin Sans", sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 2px; }
   .menu__link {
     font: 400 14px "Aleo", serif;
     text-transform: uppercase;
@@ -207,7 +214,7 @@ button:hover {
 .info {
   background-image: url(../img/bg_002.jpg);
   background-size: cover;
-  padding: 0 20px; }
+  padding: 0 20px 0 20px; }
   .info__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -259,7 +266,7 @@ button:hover {
   background-color: rgba(51, 51, 51, 0.9);
   width: 50%;
   padding: 50px;
-  margin: 100px 0; }
+  margin: 230px 0 100px 0; }
 
 .article__subtitle {
   font: 400 20px "Josefin Sans", sans-serif; }
@@ -280,7 +287,7 @@ button:hover {
   .testimonials__title {
     font: 400 36px "Aleo", serif;
     text-align: center;
-    padding: 120px 0 95px 0; }
+    padding: 15px 0 95px 0; }
   .testimonials__wrapper {
     width: 100%;
     margin-bottom: 200px; }
@@ -303,7 +310,9 @@ button:hover {
     padding: 120px 0 25px 0; }
   .footer__logo {
     font: 700 24px "Josefin Sans", sans-serif;
-    text-decoration: none; }
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
   .footer__logo:hover {
     color: #5474fd; }
   .footer__caption {
@@ -316,7 +325,8 @@ button:hover {
       padding: 0 10px;
       -webkit-transition-duration: 0.3s;
       -o-transition-duration: 0.3s;
-      transition-duration: 0.3s; }
+      transition-duration: 0.3s;
+      cursor: pointer; }
     .footer__social--icon:hover {
       color: #5474fd; }
 
@@ -416,10 +426,19 @@ button:hover {
     padding: 150px 0; }
   button {
     padding: 10px 20px; }
-  .info__button {
-    position: absolute;
-    bottom: 0; }
   .article__wrapper {
     width: auto; }
   .cell__process {
-    padding: 15px 0; } }
+    padding: 15px 0; }
+  .info__wrapper {
+    padding: 50px 0; }
+  .process__wrapper {
+    padding: 50px 0; }
+  .article__wrapper {
+    margin: 50px 0; }
+  .testimonials__wrapper {
+    margin-bottom: 50px; }
+  .footer__wrapper {
+    padding: 50px 0; }
+  .footer__social {
+    padding-bottom: 0; } }
